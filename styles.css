@@ -15,16 +15,14 @@
     
  }
  body{
-    background-color:hsl(0, 0%, 95%) ;
+    background-color:var(--color);
  }
 section{
     display: flex;
     align-items: center; 
     justify-content: center;  
-   margin-block: 70px;
+    margin-block: 70px;
     width: 100vw; 
- 
-    
      background-color: var(--color); 
  
 }
@@ -40,8 +38,6 @@ section{
     background-color: hsl(31, 77%, 52%);
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-  
-
 }
 .second-page {
     background-color: hsl(184, 100%, 22%);
@@ -50,12 +46,8 @@ section{
 .thrid-page {
     background-color: hsl(179, 100%, 13%);
     border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
- 
-    
+    border-bottom-right-radius: 10px;   
 }
-
-
 h1{
     font-family: "Big Shoulders Display", sans-serif;
     font-weight: 700;
@@ -73,16 +65,12 @@ p{
     width: 180px;
 }
 
-
 button{
-  /* position: absolute; */
     padding-block: 15px;
     padding-inline: 30px;
     border-radius: 30px;
     border: none;
-   
     margin-block: 40px;
- 
 }
 button:hover{
     border: 2px solid var(--color);
@@ -108,9 +96,7 @@ button:hover{
     align-items: center;
  }
  .wrapper{
-    display: flex;
-    /* justify-content: center; */
-   
+    display: flex;  
  }
  section{
     display: flex;
@@ -121,128 +107,13 @@ button:hover{
 
  .thrid-page {
     background-color: hsl(179, 100%, 13%);
-    
     border-top-right-radius: 15px;
     border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
- 
-    
+    border-bottom-right-radius: 0px;  
 }
 .first-page {
     background-color: hsl(31, 77%, 52%);
-  border-top-left-radius:  15px; 
-  
-  border-top-right-radius:0;
-
+    border-top-left-radius:  15px; 
+    border-top-right-radius:0;
 }
 }
-/* :root {
-   --color:hsl(0, 0%, 95%);
-   
-}
-
-section{
-    display: flex;
-    /* align-items: center; */
-    /* justify-content: center; */
- /* border: 2px solid green;
-    width: 100vw; */
-    /* margin: auto; */
-    /* height: 100vh;  */
-    /* background-color: var(--color); */
- 
-}
-/* .debugg{ */
-    /* margin: auto; */
-    /* width: 250px;
-    padding: 40px;
-    border: 3px solid;
- }
-
-
- .wrapper{
-
-    display: flex;
-    align-items: center; */
-    /* justify-content: center;  */
-   
-    
-/* }
-
-button{
-  
-    padding-block: 15px;
-    padding-inline: 30px;
-    border-radius: 30px;
-    border: none;
-    bottom: 50px;
- 
-}
-button:hover{
-    border: 2px solid var(--color);
-    background-color: transparent;
-    color: var(--color);
-    cursor: pointer;
-}
-.button1{
-    color:hsl(31, 77%, 52%);
-}
-.button2{
-    color: hsl(184, 100%, 22%);
-}
-.button3{
-    color:hsl(179, 100%, 13%);
-}
-
-h1{
-    font-family: "Big Shoulders Display", sans-serif;
-    font-weight: 700;
-    color: var(--color);
-    margin-top: 20px;
-    font-size: 30px;
-    margin-bottom: 30px;
-    text-transform: uppercase;
-}
-p{
-    font-family: "Lexend Deca", sans-serif;
-    color: hsla(0, 0%, 100%, 0.75);
-    font-size: 15px;
-    line-height: px;
-} */
-
-/* .wrapper{
-    display: flex;
-  align-items: center; */
-    /* justify-content: center;  */
-    /* width:900px;
-     */
-   
-}
-
-
-
-/* .first-page {
-    background-color: hsl(31, 77%, 52%);
-  border-top-left-radius:  15px; 
-
-}
-.second-page {
-    background-color: hsl(184, 100%, 22%);
-  
-}
-.thrid-page {
-    background-color: hsl(179, 100%, 13%);
-    border-top-right-radius: 15px;
- 
-    
-}
-@media  screen and (max-width:900px) {
-    .debugg{
-     width: 300px;
-    } 
-section {
-    display: block;
-    flex-directio;
-}
-    
-} */ 
