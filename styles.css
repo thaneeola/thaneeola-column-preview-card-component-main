@@ -72,12 +72,6 @@ button{
     border: none;
     margin-block: 40px;
 }
-button:hover{
-    border: 2px solid var(--color);
-    background-color: transparent;
-    color: var(--color);
-    cursor: pointer;
-}
 
 
 .button1{
@@ -116,4 +110,11 @@ button:hover{
     border-top-left-radius:  15px; 
     border-top-right-radius:0;
 }
+button:hover{
+    border: 2px solid var(--color);
+    background-color: transparent;
+    color: var(--color);
+    cursor: pointer;
+}
+
 }
